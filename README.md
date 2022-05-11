@@ -2,15 +2,24 @@
 
 Idées :
 
+Fonctionnalités :
+
+Scrollbar custom (::-webkit-scrollbar peut être) ou simple css
+Sidebar stylée avec menu de nav hader fixed.
+Curseur personnalisé ? Avec une trail peut être ? (qui devrait rester simple tout de même)
+Dark mode
+Mode daltonien
+Mode Colorblind 
+Mode Accessibilité ? (comme pronote à faire des recherches)
+Rajouter d'autres langues (multiples ç aserait bien)
+Responsive * 3 (mobile, ecran portable et fixe)
 
 Design :
 
-Design plutôt moderne et sobre
-Noir-blanc avec un peu de cyan ? peut être gris clair aussi
+Moderne, avec du dynamisme.
+1 - Noir-blanc avec un peu de cyan ? peut être gris clair aussi
+2 - Blanc, bleur clair et jaune clair (beige).
 Intégrer des parties comme d'il s'agissait de tâches sur l'écran qui prendraient 90% width.
-Dark mode quand même, dans le sens où je ferai une app fond blanc.
-Mode daltonien ?
-Rajouter d'autres langues
 
 
 Présentation :
@@ -22,7 +31,7 @@ Plutôt que faire un pavé, imager avec des courtes phrases.
 Compétences :
 
 Illustrer les framework / librairies dans la partie compétences avec de simples modules. -> Le code devra être beau et cela montrerait que l'on sait faire des choses.
-Vue.js -> //Je sais pas
+Vue.js -> //Je sais pas comment l'illustrer
 React.js -> Petit jeu
 Symfony -> Apprendre symfony déjà
 
@@ -31,7 +40,7 @@ Projets :
 
 PollExpress : mettre le beau logo et l'image d'un form / objet de boutique
 E-Commerce : Rester simple, sobre et vague
-Pas trop d'idées pour un 3ème projet pertienent, à développer.
+Peut être ne pas mettre de section projets ? sérieusement
 
 
 Expériences professionnelle :
@@ -39,7 +48,7 @@ Expériences professionnelle :
 Lien site web, description missions.
 
 
-Conctact : 
+Contact : 
 
 Implémenter maps + tel + mail pro + linkedin.
 Les informations seraient sur la partie gauche de l'écran.
