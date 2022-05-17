@@ -1,6 +1,8 @@
 # Portfolio
 
-Idées :
+Frameworks / API :
+Solid.js
+Tailwind.css
 
 Fonctionnalités :
 
