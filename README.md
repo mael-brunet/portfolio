@@ -1,8 +1,14 @@
 # Portfolio
 
-Frameworks / API :
-Solid.js
-Tailwind.css
+Frameworks / API / Plugin :
+
+A implémenter :
+- Solid.js
+- NiceScroll
+
+Implémenté :
+- Tailwind.css 
+
 
 Fonctionnalités :
 
