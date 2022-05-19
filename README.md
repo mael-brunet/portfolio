@@ -1,63 +1,70 @@
-# Portfolio
+# Getting Started with Create React App
 
-Frameworks / API / Plugin :
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A implémenter :
-- Solid.js
-- NiceScroll
+## Available Scripts
 
-Implémenté :
-- Tailwind.css 
+In the project directory, you can run:
 
+### `npm start`
 
-Fonctionnalités :
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Scrollbar custom (::-webkit-scrollbar peut être) ou simple css
-Sidebar stylée avec menu de nav hader fixed.
-Curseur personnalisé ? Avec une trail peut être ? (qui devrait rester simple tout de même)
-Dark mode
-Mode daltonien
-Mode Colorblind 
-Mode Accessibilité ? (comme pronote à faire des recherches)
-Rajouter d'autres langues (multiples ç aserait bien)
-Responsive * 3 (mobile, ecran portable et fixe)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Design :
+### `npm test`
 
-Moderne, avec du dynamisme.
-1 - Noir-blanc avec un peu de cyan ? peut être gris clair aussi
-2 - Blanc, bleur clair et jaune clair (beige).
-Intégrer des parties comme d'il s'agissait de tâches sur l'écran qui prendraient 90% width.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-Présentation :
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Hobbies, formation, objectif professionnel, parler du futur ?
-Plutôt que faire un pavé, imager avec des courtes phrases.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Compétences :
+### `npm run eject`
 
-Illustrer les framework / librairies dans la partie compétences avec de simples modules. -> Le code devra être beau et cela montrerait que l'on sait faire des choses.
-Vue.js -> //Je sais pas comment l'illustrer
-React.js -> Petit jeu
-Symfony -> Apprendre symfony déjà
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Projets :
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-PollExpress : mettre le beau logo et l'image d'un form / objet de boutique
-E-Commerce : Rester simple, sobre et vague
-Peut être ne pas mettre de section projets ? sérieusement
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-Expériences professionnelle :
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Lien site web, description missions.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-Contact : 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Implémenter maps + tel + mail pro + linkedin.
-Les informations seraient sur la partie gauche de l'écran.
-Peut être englober maps de blanc.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
