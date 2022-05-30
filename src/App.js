@@ -1,82 +1,82 @@
 import React from 'react';
+import Header from './components/Header'
 
 function App() {
   return (
-    <React.Fragment>  
-      <body class="bg-cyan-200">
+    <React.Fragment > 
+      
+      <div className='overflow-hidden h-screen'>
 
-      <header class="top-0 h-16 bg-white sticky border-b-4 border-b-black">
-        <div class="fixed top-5 right-4 cursor-pointer">
-          <span class='flex flex-col space-y-1 items-center'>
-          <span class="w-10 h-1 bg-black"></span>
-          <span class="w-8 h-1 bg-black"></span>
-          <span class="w-6 h-1 bg-black"></span>
-          </span>
-        </div>
-      </header>
-      <main class='space-y-36'>
-        <section class="h-96 bg-gray-200 flex flex-row justify-center space-x-20 child:mt-20">
-          <div class="bg-slate-700 child:text-gray-600 w-1/3 h-3/5 flex flex-row rounded-xl border-2 border-slate-500">
-              <div class=" flex flex-col justify-center ml-2 mr-2">
-                <div> 1 </div>
-                <div> 2 </div>
-                <div> 3 </div>
-                <div> 4 </div>
-                <div> 5 </div>
-                <div> 6 </div>
-                <div> 7 </div>
-                <div> 8 </div>
-                <div> 9 </div>
-              </div>
+        <div className='flex h-full'>
 
-              <div class="flex flex-col justify-center">
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-                <div> a </div>
-              </div>
-          </div>
+        <Header/>
 
-          <div>
-            <span> Salutation !</span>
-            <div>
-              Je m'appelle 
-              <span> Maël Brunet</span>
+        <main className='space-y-36 bg-cyan-100 overflow-y-auto w-full child:mx-auto child:my-0'>
+          <span></span>
+          <div className='h-full w-full'>
+          <section className="mx-auto bg-cyan-200 flex flex-row justify-center space-x-20 child:mt-20 shadow-lg h-4/6 w-5/6">
+            <div className="bg-slate-700 child:text-gray-600 w-1/3 h-3/5 flex flex-row rounded-xl border-4 border-slate-500">
+                <div className=" flex flex-col justify-center ml-2 mr-2">
+                  <div> 1 </div>
+                  <div> 2 </div>
+                  <div> 3 </div>
+                  <div> 4 </div>
+                  <div> 5 </div>
+                  <div> 6 </div>
+                  <div> 7 </div>
+                  <div> 8 </div>
+                  <div> 9 </div>
+                </div>
+
+                <div className="flex flex-col justify-center">
+                  <div> &lt;div&gt; </div>
+                  <div> Change la font !!! </div>
+                  <div> Et la couleur du texte </div>
+                  <div> a </div>
+                  <div> a </div>
+                  <div> a </div>
+                  <div> a </div>
+                  <div> a </div>
+                  <div> a </div>
+                </div>
             </div>
+
             <div>
-              Lorem Epsilum
+              <span> Salutation !</span>
+              <div>
+                Je m'appelle 
+                <span> Maël Brunet</span>
+              </div>
+              <div>
+                Lorem Epsilum
+              </div>
             </div>
+          </section>
           </div>
-        </section>
+          <section className="bg-cyan-200">
+            Présentation
+          </section>
 
-        <section class="h-96 bg-gray-200">
-          Présentation
-        </section>
+          <section className="bg-cyan-200">
+            Compétences
+          </section>
 
-        <section class="h-96 bg-gray-200">
-          Compétences
-        </section>
+          <section className="bg-cyan-200">
+            Expérience pro / projets
+          </section>
 
-        <section class="h-96 bg-gray-200">
-          Expérience pro / projets
-        </section>
+          <section className="bg-cyan-200">
+            Contact
+          </section>
 
-        <section class="h-96 bg-gray-200">
-          Contact
-        </section>
-
-      </main>
-      <footer class="h-16 bg-gray-700">
-        
-      </footer>
-
-      </body>
-    </React.Fragment>
+          <footer className="bg-gray-700">
+          
+          </footer>
+          
+        </main>
+      </div>
+    </div> 
+  </React.Fragment>
   );
 }
 
